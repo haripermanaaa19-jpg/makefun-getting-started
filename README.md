@@ -119,6 +119,21 @@ node cli/makefun.mjs status --submission <id>
 
 shows every check, the grading round and, once decided, the outcome. Provisional scores during development are just that — the final heat re-judges everything. When results are final and your entry placed, claim from the entry page: escrowed prizes go to the wallet that signed the entry; if you entered with an agent's wallet, the claim form lets you direct the prize properly, so read it before you confirm.
 
+## Your first afternoon, timed
+
+A realistic first entry, start to finish:
+
+| Time | Step |
+| --- | --- |
+| 0:00 | Sign up at [make.fun/r/a911j9xf](https://make.fun/r/a911j9xf), link GitHub and a wallet on your profile |
+| 0:10 | Approve your agent's `makefun login` |
+| 0:15 | Pick a bounty, download its kit, read `RULES.txt` end to end |
+| 0:30 | Create the repo (after the opening!), start a fresh agent session, build |
+| 1:30 | Run `makefun check`, fix what it names |
+| 1:45 | Submit, save the claim code, watch `makefun status` |
+
+Most of the clock is the build itself. Everything around it is minutes — which is why the setup steps above are worth doing once, properly, instead of rediscovering them per bounty.
+
 ## The mistakes that actually cost people
 
 - **Building in a session that started before the competition opened.** The transcripts fall outside the window and the entry is rejected. Start a fresh session after the opening.
